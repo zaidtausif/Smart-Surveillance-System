@@ -1,0 +1,22 @@
+# StrongSORT tuned to reduce ID switches under occlusions
+tracker_type: bytetrack
+track_high_thresh: 0.35
+track_low_thresh: 0.05
+new_track_thresh: 0.6
+track_buffer: 30
+match_thresh: 0.8
+max_age: 60           # keep tracks alive through short occlusions
+n_init: 3
+max_iou_distance: 0.7 # higher tolerates motion/noise
+
+# ReID embedder
+embedder: 'osnet_x0_25'
+half: true
+bgr: true
+match_threshold: 0.7
+gmc_method: 'sparseOptFlow'
+
+# Misc
+proximity_thresh: 0.5
+appearance_thresh: 0.25
+fuse_score: True
