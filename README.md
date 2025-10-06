@@ -1,4 +1,4 @@
-# 🚨 Smart Surveillance System – Anomaly Detection
+#  Smart Surveillance System – Anomaly Detection
 
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)  
 [![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)](https://streamlit.io/)  
@@ -9,18 +9,18 @@ The system focuses on **loitering detection** and **abandoned bag detection**, w
 
 ---
 
-## ✨ Features
-- 🎯 **YOLOv8 Object Detection** – Detects people, bags, bicycles, and other objects.
-- 🧾 **StrongSORT Tracking** – Assigns consistent IDs across frames for multi-object tracking.
-- ⚡ **Behavioral Rule Engine**  
+##  Features
+-  **YOLOv8 Object Detection** – Detects people, bags, bicycles, and other objects.
+-  **StrongSORT Tracking** – Assigns consistent IDs across frames for multi-object tracking.
+-  **Behavioral Rule Engine**  
   - **Loitering Detection**: Person stays in an area for longer than allowed.  
   - **Abandoned Bag Detection**: Bag left unattended for a fixed duration.
-- 📊 **Alerts & Logging** – Snapshots, CSV logs, and annotated video outputs.
-- 🖥 **Interactive Dashboard** – View alerts, filter by type/object, and inspect snapshots.
+-  **Alerts & Logging** – Snapshots, CSV logs, and annotated video outputs.
+-  **Interactive Dashboard** – View alerts, filter by type/object, and inspect snapshots.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ```
 ├── src/
 │   ├── detect_anomalies.py     # Main detection script
@@ -43,7 +43,7 @@ The system focuses on **loitering detection** and **abandoned bag detection**, w
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ```bash
 # Clone repository
@@ -60,7 +60,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Usage
+##  Usage
 
 ### **1. Run Detection**
 ```bash
@@ -75,11 +75,11 @@ python -m src.detect_anomalies --folder data/UCSDped2/Test --save
 ```bash
 streamlit run src/streamlit_app.py
 ```
-👉 Explore alerts interactively, filter by type, and preview snapshots.
+ Explore alerts interactively, filter by type, and preview snapshots.
 
 ---
 
-## 📊 Algorithms
+##  Algorithms
 
 <details>
 <summary><b>Loitering Detection</b></summary>
@@ -102,13 +102,13 @@ Uses StrongSORT/ByteTrack to minimize ID switches and maintain object identity.
 
 ---
 
-## 🚀 Future Work
-- 🧠 Integrate **IsolationForest** anomaly scoring  
-- 🎥 Use **GANs for synthetic anomaly generation** (e.g., rare abandoned bag events)  
-- 🌐 Extend for **real-time CCTV integration**
+##  Future Work
+-  Integrate **IsolationForest** anomaly scoring  
+-  Use **GANs for synthetic anomaly generation** (e.g., rare abandoned bag events)  
+-  Extend for **real-time CCTV integration**
 
 ---
 
 
-## 👨‍💻 Author
+##  Author
 Developed by [Md Zaid Tausif](https://github.com/zaidtausif56).
