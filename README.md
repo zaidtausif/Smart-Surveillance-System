@@ -9,6 +9,20 @@ The system focuses on **loitering detection** and **abandoned bag detection**, w
 
 ---
 
+## Dashboard
+<img width="1919" height="1079" alt="Screenshot 2025-08-24 232010" src="https://github.com/user-attachments/assets/1ac3d9ee-ace9-4600-a85c-d1f5fb8d7c46" />
+
+<img width="1919" height="1073" alt="Screenshot 2025-08-24 232028" src="https://github.com/user-attachments/assets/201263e4-69d5-4c0f-826f-fc4a5e3df913" />
+
+
+## Working
+
+<img width="1919" height="1012" alt="Screenshot 2025-08-24 231121" src="https://github.com/user-attachments/assets/fd4768fb-feac-4630-bad5-22a014bc85dc" />
+
+<img width="1919" height="1006" alt="Screenshot 2025-08-24 231246" src="https://github.com/user-attachments/assets/0551b2c7-e6e9-42c8-8f75-efdbe71c6a2d" />
+
+---
+
 ##  Features
 -  **YOLOv8 Object Detection** – Detects people, bags, bicycles, and other objects.
 -  **StrongSORT Tracking** – Assigns consistent IDs across frames for multi-object tracking.
